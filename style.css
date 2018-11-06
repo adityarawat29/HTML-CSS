@@ -1,0 +1,73 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway' , sans-serif;
+    
+}
+html , body{
+    padding: 0%;
+    margin: 0%;
+	background-image: url("D:\Users\adrawat\Desktop\Images1\linkin-park.jpg");
+}
+
+.main-nav ul{
+        margin: 0%;
+}
+
+.main-nav li{
+    display: inline;
+}
+
+.main-nav a{
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav a:hover{
+    background-color: chartreuse;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px ;
+}
+.main-header{
+	background-size: auto;   
+    padding-bottom: 30px;
+}
+
+.songs-main-ul  li{ display : inline-block;
+margin: 2px;
+
+
+}
+.facebook :hover { background-color:#3b5998;
+}
+
+.instagram :hover{ background-color: #517fa4;
+}
+.youtube :hover { background-color:#b31217;
+}
+.dropdown{ position:relative;
+display:inline-block;
+
+}
+.dropdown-content{
+display:none;
+position:absolute;
+background-color:#f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 18px;
+z-index: 1;
+	}
+	
+.songs-main-div a:hover{ background-color:chartreuse;
+}
+	
+.dropdown:hover .dropdown-content {
+    display: block;
+}
