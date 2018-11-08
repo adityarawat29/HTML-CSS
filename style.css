@@ -2,13 +2,15 @@
 *{
     box-sizing: border-box;
     font-family: 'Raleway' , sans-serif;
+	
     
 }
 html , body{
     padding: 0%;
     margin: 0%;
-	background-image: url("D:\Users\adrawat\Desktop\Images1\linkin-park.jpg");
+		
 }
+
 
 .main-nav ul{
         margin: 0%;
@@ -18,14 +20,14 @@ html , body{
     display: inline;
 }
 
-.main-nav a{
+.main-nav a{ 
     display: inline-block;
     padding: .5em;
-    color: black;
+    color: Red;
     text-decoration: none;
 }
 
-.main-nav a:hover{
+.main-nav a:hover{ 
     background-color: chartreuse;
 }
 .main-nav{
@@ -41,8 +43,12 @@ html , body{
 
 .songs-main-ul  li{ display : inline-block;
 margin: 2px;
+min-height: 150vh;
+}
 
-
+.songs-main-ul{
+	padding:0;
+	bottom-margin:0;
 }
 .facebook :hover { background-color:#3b5998;
 }
@@ -51,11 +57,13 @@ margin: 2px;
 }
 .youtube :hover { background-color:#b31217;
 }
+
 .dropdown{ position:relative;
 display:inline-block;
 
 }
 .dropdown-content{
+
 display:none;
 position:absolute;
 background-color:#f9f9f9;
@@ -65,9 +73,38 @@ padding: 12px 18px;
 z-index: 1;
 	}
 	
-.songs-main-div a:hover{ background-color:chartreuse;
+.songs-main-div a:hover{ color:chartreuse;
 }
 	
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.songs-main-section{ 
+	background:center fixed;
+	background-image: url("LP_Background.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.songs-main-div {
+	color:rgb(255,0,0);opacity:0.6;
+	}
+
+.songs-main-div a{
+	color:rgb(66, 133, 244);opacity:0.6;
+	}	
+
+h3{color:rgb(255, 165, 0);
+}
+
+
+.transition-div :hover{    width: 300px;
+    height: 300px;
+    
+    transform: rotate(180deg);
+	 
+}
+
+
