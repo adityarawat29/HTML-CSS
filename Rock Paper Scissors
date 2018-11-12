@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title> Rock Paper Scissors </title>
+    <link rel="stylesheet" href="game_style.css">
+</head>
+<body>
+    <header>
+        <h1> Rock Paper Scisssors </h1>
+    </header>
+    <div class="score-board">
+       <div id="user_game" class="game"> user </div> 
+       <div id="compu_game" class="game"> compu </div> 
+       <span id="user_score"> 0 </span> :
+       <span id="compu_score"> 0 </span>
+    </div>
+    <div class="result">
+        <p> Paper covers rock . You Win! </p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="Game_images/rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="Game_images/paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="Game_images/scissors.png" alt="">
+        </div>
+
+        <div> <p id="action-message" > Make Your Move</p> </div>
+    </div>
+</body>
+</html>
