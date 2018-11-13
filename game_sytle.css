@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 * {
     margin: 0;
@@ -12,11 +13,15 @@ body {
 }
 
 header {
+	
     background: white;
     padding: 20px;
 }
 
 header > h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	font-weight:bold;
     color: #24272E;
     text-align: center;
 }
@@ -47,7 +52,7 @@ header > h1 {
     left: -23px;
 }
 
-#compu_game {
+#comp_game {
     position: absolute;
     top: 30px;
     right:-40px;
@@ -87,4 +92,22 @@ header > h1 {
     margin: 10px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.winningStyles {
+	border: 3px solid #4dcc7d;
+	background-color: #043507;
+	box-shadow: 0 0 20px #043507;
+}
+
+.losingStyles {
+	border: 3px solid #c52e2e;
+	background-color: #2e0303;
+	box-shadow: 0 0 20px #2e0303;
+}
+
+drawStyles {
+	border: 3px solid #444;
+	background-color: #222;
+	box-shadow: 0 0 20px #222;
 }
