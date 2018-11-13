@@ -12,9 +12,9 @@
     </header>
     <div class="score-board">
        <div id="user_game" class="game"> user </div> 
-       <div id="compu_game" class="game"> compu </div> 
+       <div id="comp_game" class="game"> comp </div> 
        <span id="user_score"> 0 </span> :
-       <span id="compu_score"> 0 </span>
+       <span id="comp_score"> 0 </span>
     </div>
     <div class="result">
         <p> Paper covers rock . You Win! </p>
@@ -32,5 +32,6 @@
 
         <div> <p id="action-message" > Make Your Move</p> </div>
     </div>
+ <script src="game_app.js"></script>   
 </body>
 </html>
